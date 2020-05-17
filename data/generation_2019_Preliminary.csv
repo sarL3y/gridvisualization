@@ -1,5 +1,4 @@
-YEAR,MONTH,STATE,TYPE OF PRODUCER,ENERGY SOURCE,"GENERATION
-(Megawatthours)"
+YEAR,MONTH,STATE,TYPE OF PRODUCER,ENERGY SOURCE,"GENERATION (Megawatthours)"
 2019,1,MA,Total Electric Power Industry,Total,"2,383,090"
 2019,1,MA,Total Electric Power Industry,Coal,0
 2019,1,MA,Total Electric Power Industry,Pumped Storage,"-37,687"

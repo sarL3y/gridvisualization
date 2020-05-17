@@ -6,7 +6,7 @@ module.exports = function(sequelize, DataTypes) {
       primaryKey: true,
       autoIncrement: true
     },
-    name: {
+    typeName: {
       type: DataTypes.STRING,
       allowNull: false,
       len: [1]  
@@ -14,7 +14,9 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   EnergySource.associate = function(models){
-    EnergySource.hasMany(models.GenerationData);
+    EnergySource.belongsToMany(models.Generation, {
+      through: "GenerationEnergySource"
+    });
   };
 
   return EnergySource;
