@@ -1,21 +1,21 @@
   .App {
-      background-color: rgb(117, 172, 120);
+      background-color: rgb(179, 209, 182);
       width: 100vmax;
   }
 
   .HeaderDiv {
-      background-color: rgb(117, 172, 120);
+    background-color: rgb(179, 209, 182);
       text-align: center;
   }
 
   .FooterDiv {
-      background-color: rgb(56, 100, 62);
+    background-color: rgb(179, 209, 182);
       text-align: center;
       min-height: 5rem;
   }
 
   .MapDiv {
-    background-color: rgb(117, 172, 120);
+    background-color: rgb(179, 209, 182);
       text-align: center;
   }
 

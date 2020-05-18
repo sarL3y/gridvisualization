@@ -1,6 +1,6 @@
 import stateArray from "./StateArray";
 
-const colorArray = ["#6C4385", "#FFE047", "#016C0B", "#2210D3", "#DD4B3E", "#822F2B", ];
+const colorArray = ["#6C4385", "#807523", "#016C0B", "#2210D3", "#782b2b", "#822F2B", ];
 
 let stateColorObj = {};
 // let currentStateColor = "";
