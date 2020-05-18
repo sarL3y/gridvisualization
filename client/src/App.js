@@ -13,8 +13,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <div className="App-header">
+      <Header className="header" />
+      <div className="MapDiv">
         <div className="d-none d-flex-md justify-content-center">
         <USAMap customize={statesCustomConfig()} onClick={mapHandler} />
         </div>
