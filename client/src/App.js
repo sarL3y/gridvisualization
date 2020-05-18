@@ -16,6 +16,7 @@ function App() {
       <Header className="header" />
       <div className="MapDiv">
         <div className="d-none d-flex-md justify-content-center">
+          <h4>Click on a State to see their energy profile</h4>
         <USAMap customize={statesCustomConfig()} onClick={mapHandler} />
         </div>
         <Footer />
