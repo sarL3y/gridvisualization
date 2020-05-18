@@ -2,26 +2,13 @@ import React from 'react';
 import USAMap from "react-usa-map";
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
+import statesCustomConfig from "./layouts/StateCustomConfig";
 import './App.css';
 
 function App() {
 
   const mapHandler = (event) => {
     console.log('You clicked on ' + event.target.dataset.name);
-  };
-
-  const statesCustomConfig = () => {
-    return {
-      "NJ": {
-        fill: "navy",
-      },
-      "NY": {
-        fill: "#CC0000"
-      },
-      "MN": {
-        fill: "#CC0000"
-      }
-    };
   };
 
   return (
