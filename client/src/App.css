@@ -1,0 +1,29 @@
+  .App {
+      background-color: rgb(179, 209, 182);
+      width: 100vmax;
+  }
+
+  .HeaderDiv {
+    background-color: rgb(179, 209, 182);
+      text-align: center;
+  }
+
+  .FooterDiv {
+    background-color: rgb(179, 209, 182);
+      text-align: center;
+      min-height: 5rem;
+  }
+
+  .MapDiv {
+    background-color: rgb(179, 209, 182);
+      text-align: center;
+  }
+
+  path {
+      pointer-events: all;
+  }
+
+  path:hover {
+      opacity: 0.30;
+      cursor: pointer;
+  }
