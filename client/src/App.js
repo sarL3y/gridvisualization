@@ -1,6 +1,7 @@
 import React from 'react';
 import USAMap from "react-usa-map";
 import Header from "./layouts/Header";
+import Footer from "./layouts/Footer";
 import './App.css';
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
         <div className="d-none d-flex-md justify-content-center">
         <USAMap customize={statesCustomConfig()} onClick={mapHandler} />
         </div>
-      
+        <Footer />
       </div>
     </div>
   );
