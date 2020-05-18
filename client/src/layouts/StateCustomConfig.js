@@ -2,15 +2,35 @@ import stateArray from "./StateArray";
 
 const colorArray = ["#6C4385", "#807523", "#016C0B", "#2210D3", "#782b2b", "#822F2B", ];
 
+
+// console.log(stateArray);
+
 let stateColorObj = {};
-// let currentStateColor = "";
+// let stateColorObj2 = {};
+// let currentStateAbbrev = {};
+// let fillColor = "";
 
 function statesCustomConfig() {
 
-  // let stateColorEach = stateArray.map(
-  //   let currentStateColor = colorArray[(Math.floor(Math.random() * 6))];
-  //   console.log(currentStateColor)
-  // )
+  // stateColorObj2 = stateArray.map(function (stateAbbrev) {
+
+  //   console.log(stateAbbrev);
+  //   fillColor = colorArray[(Math.floor(Math.random() * 6))]
+
+  //   currentStateAbbrev = {
+  //     stateAbbrev: {
+  //       fill: fillColor
+  //     }
+  //   };
+
+  //   stateColorObj2 = {
+  //     ...stateColorObj2,
+  //     ...currentStateAbbrev,
+  //   };
+  // });
+
+  // console.log(stateColorObj2);
+
 
   stateColorObj = {
     "AK": {
@@ -43,124 +63,124 @@ function statesCustomConfig() {
     "GA": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'HI': {
+    "HI": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'IA': {
+    "IA": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'ID': {
+    "ID": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'IL': {
+    "IL": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'IN': {
+    "IN": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'KS': {
+    "KS": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'KY': {
+    "KY": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'LA': {
+    "LA": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'MA': {
+    "MA": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'MD': {
+    "MD": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'ME': {
+    "ME": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'MI': {
+    "MI": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'MN': {
+    "MN": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'MO': {
+    "MO": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'MS': {
+    "MS": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'MT': {
+    "MT": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'NC': {
+    "NC": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'ND': {
+    "ND": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'NE': {
+    "NE": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'NH': {
+    "NH": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'NJ': {
+    "NJ": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'NM': {
+    "NM": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'NV': {
+    "NV": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'NY': {
+    "NY": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'OH': {
+    "OH": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'OK': {
+    "OK": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'OR': {
+    "OR": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'PA': {
+    "PA": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'RI': {
+    "RI": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'SC': {
+    "SC": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'SD': {
+    "SD": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'TN': {
+    "TN": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'TX': {
+    "TX": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'UT': {
+    "UT": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'VA': {
+    "VA": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'VT': {
+    "VT": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'WA': {
+    "WA": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'WI': {
+    "WI": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'WV': {
+    "WV": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     },
-    'WY': {
+    "WY": {
       fill: colorArray[(Math.floor(Math.random() * 6))],
     }
 
