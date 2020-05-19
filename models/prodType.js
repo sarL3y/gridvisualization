@@ -13,9 +13,9 @@ module.exports = function(sequelize, DataTypes) {
     }
   });
 
-  ProdType.associate = function(models){
-    ProdType.hasMany(models.GenerationData);
-  };
+  // ProdType.associate = function(models){
+  //   ProdType.hasMany(models.Generation);
+  // };
 
   return ProdType;
 }
