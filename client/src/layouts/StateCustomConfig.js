@@ -2,9 +2,6 @@ import stateArray from "./StateArray";
 
 const colorArray = ["#6C4385", "#807523", "#016C0B", "#2210D3", "#782b2b", "#822F2B"];
 
-
-console.log(stateArray);
-
 let stateColorObj = {};
 
 function statesCustomConfig() {
