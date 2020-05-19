@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seed-db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.9.1",
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.9"
+  }
+}

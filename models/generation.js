@@ -41,8 +41,10 @@ module.exports = function(sequelize, DataTypes) {
     //   }
     // });
 
-    Generation.belongsToMany(models.EnergySource, {
-      through: "GenerationEnergySource"
+    Generation.belongsTo(models.EnergySource, {
+      foreignKey: {
+        allowNull: false
+      }
     })
   };
 
