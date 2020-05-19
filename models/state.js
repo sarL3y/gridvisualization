@@ -21,9 +21,9 @@ module.exports = function(sequelize, DataTypes) {
     }   
   });
 
-  State.associate = function(models){
-    State.hasMany(models.GenerationData);
-  };
+  // State.associate = function(models){
+  //   State.hasMany(models.Generation);
+  // };
 
   return State;
 }

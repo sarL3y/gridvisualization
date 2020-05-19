@@ -10,13 +10,14 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING,
       allowNull: false,
       len: [1]  
-    }
+    },
+    avgCO2perKwh: {
+      type: DataTypes.INTEGER
+    }   
   });
 
   EnergySource.associate = function(models){
-    EnergySource.belongsToMany(models.Generation, {
-      through: "GenerationEnergySource"
-    });
+    EnergySource.hasMany(models.Generation);
   };
 
   return EnergySource;
